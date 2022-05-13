@@ -1,0 +1,17 @@
+
+
+	.container { padding-top: 25px; }
+	.container h1 { font-family: Impact; font-size: 48px; margin-bottom: 20px;  text-align: center; color: blue; }
+
+	.user-list { display: flex; flex-wrap: wrap; margin-bottom: 20px; }
+	.thumbnail { width: 120px; text-align: center; padding: 10px; margin: 0 0 10px 10px; border: 1px solid blue; cursor: pointer; }
+	.thumbnail .username { text-transform: capitalize; margin-bottom: 10px; line-height: 18px; }
+	.thumbnail .picture, .user-profile .picture { margin-bottom: 10px; }
+	
+	.user-profile { padding: 0 20px; margin-bottom: 20px; }
+	.user-profile h3 { text-transform: capitalize; margin: 0 0 10px 0; padding: 5px 0; border-bottom: 1px solid blue; }
+	.user-profile p { margin: 0; }
+
+	@media screen and (max-width: 768px) { 
+		.container .row { flex-direction: column-reverse; }
+	}
